@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Impede barras de rolagem */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bibi.jpeg');
+    background-size: cover; /* Cobre toda a área mantendo a proporção */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#conteudo {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    max-width: 80%; /* Limita a largura do conteúdo */
+}
+
+.btn {
+    background: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #003d7a;
+}
